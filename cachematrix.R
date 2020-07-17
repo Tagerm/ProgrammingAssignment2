@@ -32,7 +32,3 @@ cacheSolve <- function(x, ...) {
         x$setinverse(ma)
         ma
 }
-
-poli <- matrix(c(2, 4, -3, -7) ,nrow = 2, ncol = 2)
-cacheSolve(makeCacheMatrix(poli))
-
